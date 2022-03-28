@@ -1,0 +1,26 @@
+{
+  "name": "@frontsail/alpine-emerge",
+  "version": "1.0.0",
+  "author": "Muris Ceman <muris@frontsail.com>",
+  "license": "MIT",
+  "homepage": "https://www.frontsail.com/docs/alpine-emerge",
+  "description": "An Alpine plugin that handles lazy loading of FrontSail components in <template> elements.",
+  "main": "dist/alpine-emerge.cjs.js",
+  "module": "dist/alpine-emerge.esm.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "node ./build.js",
+    "dev": "node ./build.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontsail/alpine-emerge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frontsail/alpine-emerge/issues"
+  },
+  "devDependencies": {
+    "@frontsail/build": "^1.0.0"
+  }
+}
